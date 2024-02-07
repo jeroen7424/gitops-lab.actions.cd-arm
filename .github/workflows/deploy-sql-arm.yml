@@ -5,8 +5,8 @@ on:
     paths: [templates/**, .github/workflows/deploy-sql-arm.yml]
 
 env:
-  AZURE_RG: github-actions
-  AZURE_SUBSCRIPTION: 30a911a0-bad6-47e9-8aeb-507c96ed5d18
+  AZURE_RG: RG1
+  AZURE_SUBSCRIPTION: c4facf8e-23a9-4e0d-8877-8d3c520ec94e
   
 jobs:
   create-sql-databases:
